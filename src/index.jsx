@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './Components/App';
+import App from './Functional/App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'tachyons';
@@ -8,9 +8,9 @@ import './Components/Card.css'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div className='backblue' >
+    
     <App />
-    </div>
+    
   </React.StrictMode>
 );
 
